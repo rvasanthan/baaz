@@ -17,3 +17,8 @@
 .topbar-one__info a:hover {
     color: #fff !important;
 }
+
+/* Ensure buttons use the site's font-family so button text matches other page text */
+.handyfix-btn {
+  font-family: inherit !important;
+}
