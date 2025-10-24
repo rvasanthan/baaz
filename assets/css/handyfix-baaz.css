@@ -1,0 +1,19 @@
+:root {
+  --handyfix-secondary2: #800000;  /* Maroon */
+}
+
+/* Custom styles for Baaz */
+
+.topbar-one {
+  background-color: var(--handyfix-secondary2, #800000);
+}
+
+/* Change topbar icons to white */
+.topbar-one__info span {
+    color: #fff !important; /* White color with !important to override default */
+}
+
+/* Also update icon hover color */
+.topbar-one__info a:hover {
+    color: #fff !important;
+}
